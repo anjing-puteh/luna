@@ -127,7 +127,7 @@ namespace KFC_NBL
             {
                 XElement infoElement = new("info",
                     new XElement("param", new XAttribute("__type", "u32"), new XAttribute("__count", 21),
-                        $"{score.MusicId} {score.Type} {score.Score} {score.Exscore} {score.Clear} {score.Grade} 0 0 {score.ButtonRate} {score.LongRate} {score.VolRate} 0 0 0 0 0 0 0 0 0 0"));
+                        $"{score.MusicId} {score.Type} {score.Score} {score.Exscore} {score.Clear} {score.Grade} 0 0 {score.ButtonRate} {score.LongRate} {score.VolRate} 0 0 0 0 0 0 0 0 0 0 0 0 0 0"));
                 musicElement.Add(infoElement);
             }
 
